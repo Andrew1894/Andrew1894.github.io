@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta charset="utf-8">
+		<meta name="date" content="09/10/2023">
+		<meta name="description" content="Formulario de Profoma">
+		<meta name ="keywords" content="form, text, html">
+		<title>PROFORMA DE CURSOS</title>
+
+		<link rel="stylesheet" href="style.css" >
+	</head>
+	<section class="formu" id="formu">
+		<script src="proforma.js"></script>
+		<h1>Proforma</h1>
+			<div class ="frm">
+				<form action="" method="">
+					<div>
+						<label for="nombre">Nombres: </label>
+						<input type="text" name="nombre" id="nombre" placeholder="Escribe los nombres">
+					</div>
+					<div>
+						<label for="apellidos">Apellidos: </label>
+						<input type="text" name="apellidos" id="apellidos" placeholder="Escribe los Apellidos">
+					</div>
+					<div>
+						<label for="curso">Curso: </label>
+						<input type="text" name="curso" id="curso" placeholder="Escribe Nombre del Curso">
+					</div>
+					<div>
+						<label for="alumnos">Cant. Alumnos: </label>
+						<input type="text" name="alumnos" id="alumnos" placeholder="Cantidad de Alumnos">
+					</div>
+					<div>
+						<label for="precio1">Prec. del Curso: S/. </label>
+						<input type="text" name="precio1" id="precio1" placeholder="Precio del Curso">
+					</div>
+					<div>
+						<input type="button" value="CALCULAR" onclick="calculaproforma()">
+					</div>
+				</form>
+			</div>
+
+			<div id="monto"></div>
+	</section>
+</html>
